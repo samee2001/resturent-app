@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
     final themeProvider = Provider.of<ThemeProvider>(context);
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'Resturent App',
       home: AuthGet(),
       theme: themeProvider.themeData,
       darkTheme: ThemeData.dark(),
